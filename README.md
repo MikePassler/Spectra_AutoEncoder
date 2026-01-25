@@ -161,12 +161,12 @@ pip install pyarrow  # For parquet support
 
 ## 📈 Model Comparison
 
-| Model | Latent Dim | Special Features | Best For |
-|-------|-----------|------------------|----------|
-| Deep Embedded | 128 | Clustering layer | Dimensionality reduction, clustering |
-| Denoising AE | 128 | Noise injection | Robust feature learning, noise resistance |
-| Transformer | 128 | Self-attention | Peak preservation, global context |
-| VQ-VAE | 128 | Discrete codebook | Interpretability, compression |
+| Model | Latent Dim | Trainable Parameters | Special Features | Best For |
+|-------|-----------|---------------------|------------------|----------|
+| Deep Embedded | 128 | 8,377,857 | Clustering layer | Dimensionality reduction, clustering |
+| Denoising AE | 128 | 4,215,809 | Noise injection | Robust feature learning, noise resistance |
+| Transformer | 128 | 1,491,841 | Self-attention | Peak preservation, global context |
+| VQ-VAE | 128 | 169,217 | Discrete codebook | Interpretability, compression |
 
 ## 🎯 Evaluation Metrics
 
